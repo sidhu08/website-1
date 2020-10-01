@@ -12,7 +12,7 @@ The Outreachy web presence is in a couple of different places:
  * [Repository CI Status](https://travis-ci.org/outreachy/website.svg?branch=master)
 
 Older/deprecated websites include:
- - [GNOME Outreachy homepage](https://www.gnome.org/outreachy/) - shell homepage, where the outreachy.org domain currently redirects to
+ - [GNOME Outreachy homepage](https://www.gnome.org/outreachy/) - shell homepage, where the outreachy.org domain currently redirects
  - [GNOME wiki Outreachy pages](http://wiki.gnome.org/Outreachy) - moinmoin based wiki with information about how to apply and sponsor
  - [Outreachy application system](http://outreachy.gnome.org) - PHP-based application system currently hosted on OpenShift
  - irc.gnome.org #outreachy - GNOME IRC channel - where applicants get help
@@ -20,7 +20,7 @@ Older/deprecated websites include:
 
 # Future Long-term Goals
 
- - Replace planetaria with one hosted on our domain (that allows for filtering which blogs are displayed?)
+ - Replace planetaria with one who hosted on our domain (that allows for filtering which blogs are displayed?)
  - Track longitudinal information of alumni, so we can share success stories and improve our program
  - Track sponsorship information
  - Create a better way of displaying the list of potential Outreachy projects - e.g. allow searching, tagging for programming language or design or documentation or user experience
@@ -44,7 +44,7 @@ git clone https://github.com/outreachy/website.git
 cd website
 ```
 
-In order to develop with Python, you'll need the Python 3 development headers, so install them (for example, `apt-get install python3-dev` on Ubuntu). You'll also need to install node.js.
+In order to develop with Python, you'll need the Python3 development headers, so install them (for example, `apt-get install python3-dev` on Ubuntu). You'll also need to install node.js.
 
 Next, you'll need to create a new virtualenv. A "virtualenv" is a separate virtual environment for working on different Python projects. It's good practice to create a virtual environment for each Python project you're working on, in case they have conflicting dependencies, and so that you make sure to record all the dependencies for each project.
 
